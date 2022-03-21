@@ -1,0 +1,48 @@
+p {
+    color: rgb(238, 93, 26);
+}
+
+s {
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(201, 134, 201);
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    h1 {
+        color: rgb(59, 36, 210);
+        font-size: 15px;
+    }
+    p {
+        color: rgb(230, 245, 24);
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 10px) and (max-width: 500px) {
+    h1 {
+        color: rgb(255, 0, 13);
+        font-size: 5px;
+    }
+    p {
+        color: rgb(11, 53, 6);
+        font-size: 5px;
+    }
+}
