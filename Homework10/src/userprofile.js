@@ -54,7 +54,7 @@ class UserProfile extends React.Component {
 
     //呼叫API
     componentDidMount() { 
-        fetch('https://api.github.com/users/cjwu')
+        fetch('https://api.github.com/users/wiliiam-code')
             .then(response => response.json())
             .then(data => {
                 /*接到request data後要做的事情*/
@@ -137,7 +137,7 @@ class UserProfile extends React.Component {
                         <LocationOnIcon />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <p>{this.state.location}</p>
+                        <p>TAIWAN:{this.state.location}</p>
                     </Grid>
                 </Grid>
                 <Grid container spacing={0.5}>
