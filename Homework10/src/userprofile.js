@@ -137,7 +137,7 @@ class UserProfile extends React.Component {
                         <LocationOnIcon />
                     </Grid>
                     <Grid item xs={12} sm={2}>
-                        <p>TAIWAN:{this.state.location}</p>
+                        <p>country:{this.state.location}</p>
                     </Grid>
                 </Grid>
                 <Grid container spacing={0.5}>
